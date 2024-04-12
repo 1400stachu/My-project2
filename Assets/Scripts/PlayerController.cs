@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
     }
     void Jump()
     {
-        //sprawdz czy znajduje siê na poziomie 0
+        //sprawdz czy znajduje siê na poziomie 00
         if (transform.position.y <= Mathf.Epsilon)
         {
             //dodaj si³ê skoku
